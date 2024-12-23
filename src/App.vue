@@ -2,14 +2,14 @@
   <div id="app">
     <!--<img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>-->
-     <FileUploadForm />
+     <SearchProduct />
   </div>
 </template>
 
 <script>
 
 
-import FileUploadForm from './view/FileUploadForm.vue'
+import SearchProduct from './view/SearchProduct.vue'
 import Vue from 'vue';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
@@ -20,7 +20,7 @@ Vue.use(ElementUI);
 export default {
   name: 'App',
   components: {
-    FileUploadForm
+    SearchProduct
   }
 }
 </script>
