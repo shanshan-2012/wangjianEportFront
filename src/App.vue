@@ -2,14 +2,14 @@
   <div id="app">
     <!--<img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>-->
-     <SearchProduct />
+     <SearchProductByTextbox />
   </div>
 </template>
 
 <script>
 
 
-import SearchProduct from './view/SearchProduct.vue'
+import SearchProductByTextbox from './view/SearchProductByTextbox.vue'
 import Vue from 'vue';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
@@ -20,7 +20,7 @@ Vue.use(ElementUI);
 export default {
   name: 'App',
   components: {
-    SearchProduct
+    SearchProductByTextbox
   }
 }
 </script>
